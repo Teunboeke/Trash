@@ -93,5 +93,28 @@ class main extends PluginBase implements Listener {
       		$block->level = $tile->getLevel();
       		$block->level->sendBlocks ([
             				$player
+      		], [      
+            				$block
+       		]);    
+      		if ($tile instanceof Chest){
+            			//Items
+                	$inv = $tile->getInventory(); 
+            			$glass = Item::get(160, 7, 1);
+            			$glass->setCustomName(" ");
+            			$exit = Item::get(355, 14, 1);
+            			$exit->setCustomName(C::RESET . C::BOLD . C::RED . "Exit");
+            			foreach(range(0,8) as $i){
+              		$inv->setItem($i, $glass) ;      
+            			}
+            
+            			$inv->setItem(17, $glass);
+             			$inv->setItem(18, $glass);  
+             			$inv->setItem(19, $glass); 
+            			$inv->setItem(20, $glass);
+            			$inv->setItem(21, $glass);
+            			$inv->setItem(22, $glass);
+                  $inv->setitem(23, $glass);
+                  $imv->setitem(23, $glass);
+            
             
       
