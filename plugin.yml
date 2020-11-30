@@ -1,0 +1,8 @@
+name:
+author:
+version:
+main:
+api:
+commands:
+ trash:
+  description: remove items you don't want!
