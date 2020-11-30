@@ -123,6 +123,13 @@ class main extends PluginBase implements Listener {
    	}   
   
   	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) :bool{
+      		if(strtolower($cmd->getName()) == "trash"){
+            			if($sender instanceof Player){
+                    				$this->sendNavigator($sender);
+                 	} else {  
+                    				$sender->sendMessage(C::RED . "Please use this Command In-Game!");
+               		}     
+            			return true;
       
       
             
