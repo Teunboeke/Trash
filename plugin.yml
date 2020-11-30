@@ -1,8 +1,8 @@
-name:
-author:
-version:
-main:
-api:
+name: Trash
+author: Teunboeke 
+version: 1.0.0
+main: Teunboeke\Trash\Main
+api: 3.0.0 
 commands:
  trash:
   description: remove items you don't want!
