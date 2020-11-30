@@ -18,3 +18,13 @@ use pocketmine\nbt\tag\IntTag;
 use pocketmine\nbt\tag\StringTag;
 use pocketmine\plugin\PluginBase;
 use pocketmine\math\Vector3;
+use pocketmine\tile\Chest;
+use pocketmine\tile\Tile;
+use pocketmine\item\Item;
+use pocketmine\item\ItemIds;
+use pocketmine\inventory\ChestInventory;
+use pocketmine\inventory\transaction\action\SlotChangeAction;
+use pocketmine\event\inventory\InventoryTransactionEvent;
+use pocketmine\event\inventory\InventoryTransactionEvent;
+
+class main extends PluginBase implements Listener {
