@@ -130,7 +130,16 @@ class main extends PluginBase implements Listener {
                     				$sender->sendMessage(C::RED . "Please use this Command In-Game!");
                		}     
             			return true;
-      
+           		} 
+      	}
+  
+  	public function onInventoryTransaction(InventoryTransactionEvent $event) {
+      		$action = $event->getTransaction()->getActions();
+      		$player = $event->getTransaction()->getSource();
+      		$item = null;
+      		foreach ($action as $inventoryAction) {
+            			$item = $inventoryAction->getTargetItem();
+            			}
       
             
             
