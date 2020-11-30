@@ -33,3 +33,12 @@ class main extends PluginBase implements Listener {
    		$this->getServer()->getPluginManager()->registerEvents($this, $this);   
       		$this->getLogger()->Info(C::GREEN. "Trash Enabled by Teunboeke!");
       	}
+
+  	public function closeInventory(Player $player) {
+      		$block1 = Block::get(Block::AIR);
+      		$block1->x = (int) floor($player->x);
+      		$block1->y = (int) floor($player->y) - 2;
+      		$block1->z = (int) floor($player->z);
+      		$block1->level = $player->getLevel();
+      		$block1->level->sendBlocks ([
+            				$player
