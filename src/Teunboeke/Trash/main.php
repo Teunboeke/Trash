@@ -72,5 +72,8 @@ class main extends PluginBase implements Listener {
       		$block4->level = $player->getLevel();
       		$block4->level->sendBlocks ([
             				$player
+      		], [ 
+            				$block4
+       		]);     
             
       
