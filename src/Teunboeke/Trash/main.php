@@ -140,6 +140,15 @@ class main extends PluginBase implements Listener {
       		foreach ($action as $inventoryAction) {
             			$item = $inventoryAction->getTargetItem();
             			}
+      			if($item->getName() == C::RESET . C::BOLD . C::RED . "Exit"){
+              				$this->closeInventory($player);
+              				$event->setCancelled();
+              		}elseif($item->getName() == " "){
+              				$event->setCancelled();
+              		}
+      	}
+  }
+      
       
             
             
