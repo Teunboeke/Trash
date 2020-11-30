@@ -83,8 +83,15 @@ class main extends PluginBase implements Listener {
             			new StringTag ("CustomName", "Trash"),
             			new IntTag("x", floor($player->x)),
                  	new IntTag("y", floor($player->y) - 2),
-            			new IntTag("z", floor($player->z))
-            
-        	] );    
+            			new IntTag("z", floor($player->z))           
+        	] );  
+      		$tile = Tile::createTile ("Chest", $player->getLevel(), $nbt);
+      		$block = Block::get(Block::CHEST);
+      		$block->x = (int) $tile->x;
+      		$block->y = (int) $tile->y;
+      		$block->z = (int) $tile->z;
+      		$block->level = $tile->getLevel();
+      		$block->level->sendBlocks ([
+            				$player
             
       
