@@ -75,5 +75,16 @@ class main extends PluginBase implements Listener {
       		], [ 
             				$block4
        		]);     
+     	} 
+  
+  	public function sendNavigator(Player $player){
+      		$nbt = new CompoundTag ("", [
+            			new StringTag ("id", Tile::CHEST),
+            			new StringTag ("CustomName", "Trash"),
+            			new IntTag("x", floor($player->x)),
+                 	new IntTag("y", floor($player->y) - 2),
+            			new IntTag("z", floor($player->z))
+            
+        	] );    
             
       
