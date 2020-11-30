@@ -25,7 +25,7 @@ use pocketmine\item\ItemIds;
 use pocketmine\inventory\ChestInventory;
 use pocketmine\inventory\transaction\action\SlotChangeAction;
 use pocketmine\event\inventory\InventoryTransactionEvent;
-use pocketmine\event\inventory\InventoryTransactionEvent;
+use pocketmine\event\Listener;
 
 class Main extends PluginBase implements Listener {
 
