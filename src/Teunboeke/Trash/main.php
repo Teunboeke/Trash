@@ -65,5 +65,12 @@ class main extends PluginBase implements Listener {
         	], [    
             				$block3
        		]);     
+      		$block4 = Block::get(Block::AIR);
+      		$block4->x = (int) floor($player->x);
+      		$block4->y = (int) floor($player->y) - 5;
+      		$block4->z = (int) floor($player->z);
+      		$block4->level = $player->getLevel();
+      		$block4->level->sendBlocks ([
+            				$player
             
       
