@@ -4,9 +4,9 @@ namespace Teunboeke\Trash;
 
 use pocketmine\block\Block;
 use pocketmine\command\ConsoleCommandSender;
-use pocketmine\command\Commandexecutor;
+use pocketmine\command\CommandExecutor;
 use pocketmine\command\Command;
-use pocketmine\command\Commandsender;
+use pocketmine\command\CommandSender;
 use pocketmine\event\player\PlayerItemHeldEvent;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerInteractEvent;
