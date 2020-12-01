@@ -118,7 +118,7 @@ class Main extends PluginBase implements Listener {
                                                      
             			$inv->setItem(25, $glass);
             			$inv->setItem(26, $exit);
-  		   		}		  		
+  		  		} 			  		
             $player->addWindow($tile->getInventory());     	
    	}   
   
