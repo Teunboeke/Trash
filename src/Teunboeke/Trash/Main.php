@@ -118,7 +118,7 @@ class Main extends PluginBase implements Listener {
                                                      
             			$inv->setItem(25, $glass);
             			$inv->setItem(26, $exit);
-  		   		}		   		
+  		   		  		
             $player->addWindow($tile->getInventory());     	
    	}   
   
@@ -126,7 +126,7 @@ class Main extends PluginBase implements Listener {
       		if(strtolower($cmd->getName()) == "trash"){
             			if($sender instanceof Player){
                     				$this->sendNavigator($sender);
-                 	  
+                   	} else {                 	  
                     				$sender->sendMessage(C::RED . "Please use this Command In-Game!");
                		}     
             			return true;
