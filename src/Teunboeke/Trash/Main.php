@@ -113,9 +113,9 @@ class Main extends PluginBase implements Listener {
             			$inv->setItem(20, $glass);
             			$inv->setItem(21, $glass);
             			$inv->setItem(22, $glass);
-                    $inv->setitem(23, $glass);
-                    $imv->setitem(23, $glass);
-            
+            			$inv->setItem(23, $glass);
+            			$inv->setItem(24, $glass);
+                                                     
             			$inv->setItem(25, $glass);
             			$inv->setItem(26, $exit);
          		}
