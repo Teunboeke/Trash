@@ -126,7 +126,7 @@ class Main extends PluginBase implements Listener {
       		if(strtolower($cmd->getName()) == "trash"){
             			if($sender instanceof Player){
                     				$this->sendNavigator($sender);
-                  	} else {                 	  
+                  } else {                 	  
                     				$sender->sendMessage(C::RED . "Please use this Command In-Game!");
                		}     
             			return true;			
