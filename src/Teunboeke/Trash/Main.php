@@ -100,7 +100,7 @@ class Main extends PluginBase implements Listener {
       		if ($tile instanceof Chest){
             			//Items
                 	$inv = $tile->getInventory(); 
-            			$glass = Item::get(160, 7, 1);
+            			$glass = Item::get(160, 15, 1);
             			$glass->setCustomName(" ");
             			$exit = Item::get(355, 14, 1);
             			$exit->setCustomName(C::RESET . C::BOLD . C::RED . "Exit");
