@@ -129,7 +129,7 @@ class Main extends PluginBase implements Listener {
                    } else {                 	  
                     				$sender->sendMessage(C::RED . "Please use this Command In-Game!");
                		}     
-            			return true;			
+            								return true;			
            		} 
       	}
   
