@@ -119,9 +119,9 @@ class Main extends PluginBase implements Listener {
                                                      
             			$inv->setItem(25, $glass);
             			$inv->setItem(26, $exit);
-  	    }	  		
-       	$player->addWindow($tile->getInventory());      	
-   	}   
+  	 		}     		
+       	$player->addWindow($tile->getInventory());  
+   	 }  
   
   		public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) :bool{
       		if(strtolower($cmd->getName()) == "trash"){
