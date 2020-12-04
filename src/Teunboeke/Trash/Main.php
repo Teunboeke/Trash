@@ -123,7 +123,7 @@ class Main extends PluginBase implements Listener {
         $player->addWindow($tile->getInventory());     	
    	}   
   
-  	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) :bool{
+  		public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) :bool{
       		if(strtolower($cmd->getName()) == "trash"){
             			if($sender instanceof Player){
                     				$this->sendNavigator($sender);
