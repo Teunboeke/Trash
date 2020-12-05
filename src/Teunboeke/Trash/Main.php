@@ -134,7 +134,7 @@ class Main extends PluginBase implements Listener {
            		} 
       	}
   
-  	public function onInventoryTransaction(InventoryTransactionEvent $event) {
+  public function onInventoryTransaction(InventoryTransactionEvent $event) {
       		$action = $event->getTransaction()->getActions();
       		$player = $event->getTransaction()->getSource();
       		$item = null;
