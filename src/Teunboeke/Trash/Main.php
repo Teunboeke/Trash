@@ -12,6 +12,7 @@ use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\inventory\transaction\action\InventoryAction;
 use pocketmine\Player;
+use pocketmine\utils\TextFormat as C;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\nbt\tag\StringTag;
