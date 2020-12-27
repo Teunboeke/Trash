@@ -32,7 +32,7 @@ class Main extends PluginBase implements Listener {
 
   	public function onEnable(){
    		$this->getServer()->getPluginManager()->registerEvents($this, $this);   
-      		$this->getLogger()->Info(C::GREEN. "Trash Enabled by Teunboeke!");
+      		$this->getLogger()->Info("Trash Enabled by Teunboeke!");
       	}
 
   	public function closeInventory(Player $player) {
