@@ -5,4 +5,4 @@
 # Trash
 plugin that allow you to use /trash so you can remove items in your inventory that you don't want you will get an little chest ui so you can fast remove the items
 
-![Trash wide banner!]https://github.com/Teunboeke/Trash/blob/main/icon.png
+![Trash wide banner!](https://github.com/Teunboeke/Trash/blob/main/icon.png)
