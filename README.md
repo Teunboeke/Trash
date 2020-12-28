@@ -12,3 +12,9 @@ This plugin use [Apache 2.0 License](/LICENSE)! Plugin by Teunboeke
 
 # updates & fixes
 remove useless lines when adding the plugin on the server it says that the plugin (trash) is loaded twice
+
+# Contact Me
+do you need help with  anything you could dm me on discord (Teunboeke#3019)
+
+# do you have an suggestion or anything 
+else make sure to make an isue or suggestion for that on github!
