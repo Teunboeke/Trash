@@ -6,3 +6,9 @@
 plugin that allow you to use /trash so you can remove items in your inventory that you don't want you will get an little chest ui so you can fast remove the items
 
 ![Trash wide banner!](https://github.com/Teunboeke/Trash/blob/main/icon.png)
+
+# License
+This plugin use [Apache 2.0 License](/LICENSE)! Plugin by Teunboeke
+
+# updates & fixes
+remove useless lines when adding the plugin on the server it says that the plugin (trash) is loaded twice
