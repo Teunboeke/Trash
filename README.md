@@ -16,5 +16,6 @@ remove useless lines when adding the plugin on the server it says that the plugi
 # Contact Me
 do you need help with  anything you could dm me on discord (Teunboeke#3019)
 
-# do you have an suggestion or anything 
-else make sure to make an isue or suggestion for that on github!
+# suggestions & buggs
+if you have any suggestion or any buggs make sure to report it on github 
+
